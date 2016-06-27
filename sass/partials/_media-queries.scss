@@ -1,0 +1,350 @@
+@media only screen and (max-width: 1139px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 960px;
+	}
+
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-sidebar-content .content-sidebar-wrap {
+		width: 740px;
+	}
+
+	.content,
+	.site-header .widget-area {
+		width: 620px;
+	}
+
+	.sidebar-content-sidebar .content,
+	.sidebar-sidebar-content .content,
+	.content-sidebar-sidebar .content {
+		width: 400px;
+	}
+	
+	.title-area {
+		width: 120px;
+	}
+	
+	.footer-widgets-1,
+	.sidebar-primary {
+		width: 300px;
+	}
+	
+	.footer-widgets-1 {
+		margin-right: 30px;
+	}
+	
+	.footer-widget-2 {
+		width: 600px;
+	}
+
+}
+
+/*Just for the iPad and below*/
+@media only screen and (max-width: 1024px) {
+	
+	.entry-background {
+		background-attachment: scroll !important;
+	}
+	
+	.footer-widgets {
+		background-attachment: scroll;
+	}
+	
+}
+
+@media only screen and (max-width: 1023px) {
+	
+	.site-inner,
+	.wrap {
+		max-width: 768px;
+	}
+
+	.content,
+	.content-sidebar-sidebar .content,
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-primary,
+	.sidebar-secondary,
+	.sidebar-sidebar-content .content,
+	.sidebar-sidebar-content .content-sidebar-wrap,
+	.title-area {
+		width: 100%;
+	}
+	
+	.site-header .widget-area {
+		width: 570px;
+	}
+	
+	.site-header .wrap {
+		padding: 0;
+	}
+
+	.header-image .title-area {
+		background-position: center top;
+	}
+
+	.genesis-nav-menu li,
+	.site-header ul.genesis-nav-menu,
+	.site-header .search-form {
+		float: none;
+	}
+
+	.genesis-nav-menu,
+	.site-description,
+	.site-header .title-area,
+	.site-header .search-form,
+	.site-title {
+		text-align: center;
+	}
+	
+	.site-header .title-area {
+		width: 120px;
+	}
+	
+	.genesis-nav-menu {
+		font-size: 15px;
+	}
+	
+	.genesis-nav-menu a,
+	.genesis-nav-menu > .first > a,
+	.genesis-nav-menu > .last > a {
+		padding: 20px 4px;
+	}
+
+	.site-header .search-form {
+		margin: 16px auto;
+	}
+
+	.genesis-nav-menu li.right {
+		display: none;
+	}
+	
+	.footer-widgets {
+		padding-left: 10px;
+	}
+
+	.footer-widgets-1 {
+		margin-right: 0;
+		width: 300px;
+	}
+	
+	.footer-widgets-2 {
+		width: 350px;
+	}
+	
+	.cta-right #subscribe:after {
+		content: ' ';
+	}
+	
+	/* Palvelut */
+	.polttarit img {
+		top: 6.7rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	body {
+		background-color: #fff;
+		font-size: 16px;
+	}
+
+	.site-header .wrap,
+	.site-inner,
+	.cta .wrap,
+	.wrap {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	
+	.site-inner {
+		padding-top: 30px;
+	}
+	
+	.site-header .widget-area {
+		width: 100%;
+	}
+	
+	.title-area {
+		box-shadow: none;
+	}
+	
+	.header-image .site-title > a {
+		background: url(images/makumba-logo-mobile.svg) no-repeat left;
+		box-shadow: none;
+		float: left;
+		min-height: 50px;
+		width: 150px;
+	}
+
+	.archive-description,
+	.author-box,
+	.comment-respond,
+	.entry-comments,
+	.sidebar .widget,
+	.site-header {
+		padding: 0;
+	}
+	
+	.entry {
+		margin: 40px 0;
+	}
+
+	.archive-description,
+	.author-box,
+	.comment-respond,
+	.content .entry,
+	.entry-comments,
+	.entry-pings,
+	.sidebar .widget {
+		box-shadow: none;
+	}
+
+	.archive-pagination li a {
+		margin-bottom: 4px;
+	}
+
+	.five-sixths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.three-fourths,
+	.three-sixths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.news-home .featured-content .entry {
+		margin: 0;
+		width: 100%;
+	}
+	
+	.footer-widgets-2 {
+		margin-top: 15px;
+	}
+	
+	.footer-widgets input {
+		width: 50%;
+	}
+	
+	.sidebar .widget,
+	.sidebar .widget.enews-widget,
+	.sidebar .hinnasto {
+		padding: 25px;
+	}
+	
+	.enews-widget input {
+		font-size: 18px;
+	}
+	
+	.home-top {
+		margin-top: 50px;
+		
+		.video-intro {
+			height: 350px;
+			
+			video {
+				display: none;
+			}
+		}
+		
+		.video-title {
+			top: 115px;
+			
+			h2 {
+				font-size: 1.8em;
+			}
+		}
+	}
+	
+	/*CTA*/
+	.cta .wrap {
+		background: none;
+		
+		.cta-left {
+			
+			p {
+				text-align: justify;
+			}
+			
+			.text-to-right {
+				margin-left: 0;
+			}
+		}
+		
+		.cta-right {
+			padding: 0;
+		}
+	}
+	
+	/* Home page home content */
+	.content-left {
+		border-right: none;
+		margin-bottom: 20px;
+	}
+	
+	.palvelut {
+		height: 450px;
+		
+		.widgettitle {
+			font-size: 40px;
+			margin: 0 5%;
+		}
+	}
+	
+	/* Pages entry background */
+	.entry-background {
+		min-height: 350px;
+		
+		.entry-title {
+			font-size: 50px;
+			margin: 0 5%;
+		}
+	}
+	
+	/* Services */
+	.polttarit img {
+		top: 10px;
+	}
+	
+	.desktop {
+		display: none;
+	}
+	
+	.mobile {
+		display: block;
+	}
+	
+	.polttarit,
+	.yksityistunti,
+	.esitykset {
+		a {
+			padding: 8px 12px;
+		}
+	}
+	
+	/* Schedule & Prices */
+	.orange-box, 
+	.yellow-box {
+		width: 50px;
+	}
+	
+	/* Teachers */
+	.teachers1,
+	.teachers2 {
+		.teacher-description {
+			margin-top: 0;
+		}
+	}
+	
+	/* Contact */
+	.google-maps {
+		margin-bottom: 20px;
+	}
+}

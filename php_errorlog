@@ -1,0 +1,12 @@
+[01-Mar-2016 00:31:55 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/functions.php on line 3
+[01-Mar-2016 00:32:01 CST6CDT] PHP Fatal error:  Call to undefined function remove_action() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/404.php on line 15
+[01-Mar-2016 00:32:02 CST6CDT] PHP Fatal error:  Call to undefined function remove_action() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/404.php on line 15
+[01-Mar-2016 08:02:12 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/functions.php on line 3
+[01-Mar-2016 08:02:28 CST6CDT] PHP Fatal error:  Call to undefined function remove_action() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/404.php on line 15
+[01-Mar-2016 08:02:29 CST6CDT] PHP Fatal error:  Call to undefined function remove_action() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/404.php on line 15
+[13-Mar-2016 06:31:05 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/functions.php on line 3
+[13-Mar-2016 06:31:06 CST6CDT] PHP Fatal error:  Call to undefined function remove_action() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/404.php on line 15
+[13-Mar-2016 12:01:20 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/functions.php on line 3
+[13-Mar-2016 12:01:21 CST6CDT] PHP Fatal error:  Call to undefined function remove_action() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/404.php on line 15
+[13-Mar-2016 16:13:37 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/functions.php on line 3
+[13-Mar-2016 16:13:38 CST6CDT] PHP Fatal error:  Call to undefined function remove_action() in /home/tamperes/public_html/makumba.fi/wp-content/themes/makumba-child-theme/404.php on line 15

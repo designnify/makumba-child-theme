@@ -1,0 +1,173 @@
+/*
+	Theme Name: Makumba's Theme
+	Description: This Makumba's Child theme using Genesis Framework.
+	Author: Mauricio Alvarez
+	Author URI: http://designnify.com/
+	Version: 1.0
+
+	Tags: black, orange, white, one-column, two-columns, three-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+	Template: genesis
+	Template Version: 2.0.1
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+
+/* Table of Contents
+
+	- HTML5 Reset
+		- Baseline Normalize
+		- Box Sizing
+		- Float Clearing
+	- Defaults
+		- Typographical Elements
+		- Headings
+		- Objects
+		- Forms
+		- Tables
+	- Structure and Layout
+		- Site Containers
+		- Column Widths and Positions
+		- Column Classes
+	- Common Classes
+		- WordPress
+		- Genesis
+		- Titles
+	- Widgets
+		- Featured Content
+	- Pages
+		- Entry Backgrounds
+		- Services
+	- Plugins
+		- Genesis eNews Extended
+		- Genesis Latest Tweets
+		- Gravity Forms
+		- Jetpack
+	- Site Header
+		- Title Area
+		- Widget Area
+	- Site Navigation
+		- Header Navigation
+		- Primary Navigation
+		- Secondary Navigation
+	- Content Area
+		- Entries
+		- Pagination
+		- Comments
+	- Sidebars
+	- Footer Widgets
+	- Site Footer
+	- Media Queries
+		- max-width: 1139px
+		- max-width: 1023px
+		- max-width: 767px
+
+*/
+
+@import "partials/variables";
+@import "partials/mixins";
+
+/*
+HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+@import "partials/reset";
+
+
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+@import "partials/defaults";
+
+
+/*
+Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+@import "partials/structure-layout";
+@import "partials/simple-grid";
+@import "partials/accordion";
+
+
+/*
+Common Classes
+---------------------------------------------------------------------------------------------------- */
+@import "partials/common-classes";
+
+
+/*
+Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "partials/widgets";
+
+
+/*
+Pages
+---------------------------------------------------------------------------------------------------- */
+@import "partials/entry-background";
+@import "partials/pages";
+
+
+/*
+Home Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "partials/video";
+@import "partials/home-widgets";
+
+
+/*
+Plugins
+---------------------------------------------------------------------------------------------------- */
+@import "partials/plugins";
+
+
+/* Gravity Forms
+--------------------------------------------- */
+@import "partials/gravity-forms";
+
+
+/* Jetpack
+--------------------------------------------- */
+@import "partials/jetpack";
+
+
+/*
+Site Header
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-header";
+
+
+/*
+Site Navigation
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-navigation";
+@import "partials/responsive-navigation";
+
+
+/*
+Content Area
+---------------------------------------------------------------------------------------------------- */
+@import "partials/content-area";
+
+
+/*
+Sidebars
+---------------------------------------------------------------------------------------------------- */
+@import "partials/sidebars";
+
+/*
+Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "partials/footer-widgets";
+
+
+/*
+Site Footer
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-footer";
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+@import "partials/media-queries";

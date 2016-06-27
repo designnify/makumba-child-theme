@@ -1,0 +1,1 @@
+jQuery(function($){$("main.content .post .entry-image").each(function(){var t=$(this).data("entry-img");$(this).backstretch([BackStretchImg]=t,{duration:3e3,fade:750})})});

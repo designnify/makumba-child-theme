@@ -1,0 +1,200 @@
+.widget {
+	word-wrap: break-word;
+
+	ol > li {
+		list-style-position: inside;
+		list-style-type: decimal;
+		padding-left: 20px;
+		text-indent: -20px;
+	}
+
+	li li {
+		border: 0;
+		margin: 0 0 0 30px;
+		padding: 0;
+	}
+}
+
+.widget_calendar table {
+	width: 100%;
+
+	td,
+	th {
+		text-align: center;
+	}
+}
+
+/* Featured Content
+--------------------------------------------- */
+
+.featured-content .entry {
+	border-bottom: 2px solid #f5f5f5;
+	margin-bottom: 20px;
+	padding: 0 0 24px;
+}
+
+.footer-widgets .entry {
+	border-bottom: 1px dotted #666;
+}
+
+.featured-content .entry-title {
+	font-size: 20px;
+}
+
+/* Top widgets on pages
+--------------------------------------------- */
+/* Palvelut
+--------------------------------------------- */
+.palvelut {
+	background: url(images/palvelut-header-pic.jpg) fixed;
+	background-color: #fff;
+	background-position: 50% 0px;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: table;
+	-moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+	box-shadow:         inset 0 0 10px rgba(0,0,0,0.5);
+	height: 450px;
+	width: 100%;
+	
+	.wrap {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.widgettitle {
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		display: block;
+		font-size: 70px;
+		margin: 0 20%;
+		text-align: center;
+		text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.75);
+	}
+}
+/* Uutiset
+--------------------------------------------- */
+.uutiset {
+	background: url(images/palvelut-header-pic.jpg) fixed;
+	background-color: #fff;
+	background-position: 50% 0px;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: table;
+	-moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+	box-shadow:         inset 0 0 10px rgba(0,0,0,0.5);
+	height: 450px;
+	width: 100%;
+	
+	.wrap {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.widgettitle {
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		display: block;
+		font-size: 70px;
+		margin: 0 20%;
+		text-align: center;
+		text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.75);
+	}
+}
+/* Aikataulu ja Hinnat
+--------------------------------------------- */
+.aikataulu-hinnat {
+	background: url(images/palvelut-header-pic.jpg) fixed;
+	background-color: #fff;
+	background-position: 50% 0px;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: table;
+	-moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+	box-shadow:         inset 0 0 10px rgba(0,0,0,0.5);
+	height: 450px;
+	width: 100%;
+	
+	.wrap {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.widgettitle {
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		display: block;
+		font-size: 70px;
+		margin: 0 20%;
+		text-align: center;
+		text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.75);
+	}
+}
+/* Opettajat
+--------------------------------------------- */
+.opettajat {
+	background: url(images/palvelut-header-pic.jpg) fixed;
+	background-color: #fff;
+	background-position: 50% 0px;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: table;
+	-moz-box-shadow:    inset 0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+	box-shadow:         inset 0 0 10px rgba(0,0,0,0.5);
+	height: 450px;
+	width: 100%;
+	
+	.wrap {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.widgettitle {
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		display: block;
+		font-size: 70px;
+		margin: 0 20%;
+		text-align: center;
+		text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.75);
+	}
+}
+
+/* Relocating Entry Title below Header
+--------------------------------------------- */
+ 
+.entry-header-wrapper {
+	height: 450px;
+	padding: 0;
+}
+ 
+.entry-header-wrapper .entry-title {
+	color: #fff;
+	font-size: 70px;
+	margin-bottom: 0;
+	text-align: center;
+	text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.75);
+	text-transform: none;
+}
+ 
+.entry-header-wrapper h1 {
+	color: #fff;
+	text-transform: uppercase;
+}
+ 
+@media only screen and (max-width: 1023px) {
+ 
+	.entry-header-wrapper .wrap {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+ 
+}

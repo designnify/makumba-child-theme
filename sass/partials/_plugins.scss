@@ -1,0 +1,58 @@
+/* Genesis eNews Extended
+--------------------------------------------- */
+
+.enews-widget {
+
+	&,
+	.widget-title {
+		color: #fff;
+	}
+
+	input,
+	input:focus {
+		border: none;
+	}
+
+	input {
+		color: $color-blue;
+		font-family: Pacifico, sans-serif;
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+
+	input[type="submit"] {
+		background-color: $color-blue;
+		border-radius: 50%;
+		color: #fff;
+		float: right;
+		font-family: Lato, sans-serif;
+		margin: 0;
+		width: 100%;
+	}
+
+	input:hover[type="submit"] {
+		background-color: #fff;
+		border: 1px solid $color-blue;
+		color: $color-blue;
+	}
+}
+
+.sidebar {
+	
+	.widget.enews-widget {
+		background-color: $color-yellow;
+		border-top: 2px solid $color-blue;
+	}
+	
+}
+
+
+.enews form + p {
+	margin-top: 0;
+}
+
+/* Genesis Simple Share
+--------------------------------------------- */
+.share-after {
+	margin-left: 10px;
+}

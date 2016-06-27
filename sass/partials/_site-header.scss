@@ -1,0 +1,79 @@
+.site-header {
+	background-color: $color-orange;
+	box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.75);
+	min-height: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 900;
+
+	.wrap {
+		padding: 0;
+	}
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+	border-radius: 50%;
+	float: left;
+	padding: 0;
+	position: absolute;
+	width: 130px;
+}
+
+.header-full-width {
+	.title-area {
+		width: 100%;
+	}
+}
+
+.site-title {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 1.2;
+
+	a,
+	a:hover {
+		color: #000;
+	}
+}
+
+.header-image .site-title > a {
+	background: url(images/makumba-logo.svg) no-repeat left;
+	float: left;
+	min-height: 130px;
+	width: 130px;
+}
+
+.site-description {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.site-description,
+.site-title {
+	margin-bottom: 0;
+}
+
+.header-image {
+	.site-description,
+	.site-title {
+		display: block;
+		text-indent: -9999px;
+	}
+}
+
+/* Widget Area
+--------------------------------------------- */
+
+.site-header {
+	.widget-area {
+		float: right;
+		text-align: right;
+		width: 740px;
+	}
+}
